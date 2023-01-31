@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="CV_Estilo.css">
+    <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon">
+    <title>Portafolio Web</title>
+</head>
+<body>
+    <!-- MENÚ ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">NICK</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="CV_Photo.png" alt="Jordan Chambers">
+            </div>
+            <h1>JORDAN CHAMBERS</h1>
+            <h2>Ingeniero en Software - Experto UI/UX</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jordan Chambers </span>tengo 28 años de edad, soy creativo e ingenioso, con muchas ganas
+            de poder demostrar mi capacidad en el Software y Diseño UI/UX. Me gusta trabajar independientemente
+            para cualquiera que lo necesite, tanto mi equipo y yo estaremos complacidos de poder brindar nuestras
+            habilidades profesionales.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de nacimiento:</strong>
+                            15-1-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            +549113347980
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            JordanChambers123@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección:</strong>
+                            Nicaragua 159, San Rafael Mza
+                        </li>
+                        <li>
+                            <strong>Cargo:</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                DESCARGAR CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                
+                <!-- Habilidades Técnicas-->
+            <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="habilidad">
+                        <span>JavaScript</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Photoshop</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Wordpress</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Drupal</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Habilidades Profesionales-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Proyect Management</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CURRICLUM VITAE -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Escuela Primaria</h4>
+                        <span class="casa">Nº1 Domingo F. Sarmiento</span>
+                        <span class="fecha">2001 - 2006 </span>
+                        <p>Comenzé la escuela primaria con seis años de edad, pude obtener muy buenas calificaciones
+                           a tal grado de tener el honor de ser seleccionado como abanderado nacional al terminar sexto
+                           año.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Escuela Secundaria</h4>
+                        <span class="casa">Colegio Marie Curie</span>
+                        <span class="fecha">2007 - 2012</span>
+                        <p>A mis doce años de edad mis padres me inscribieron en el Colegio Marie Curie, donde iba a realizar
+                           mis estudios secundarios. Es un colegio privado donde también pude tener muy buenas
+                           calificaciones a tal grado de obtener nuevamente el honor de ser abanderado nacional al terminar 
+                           sexto año. Fue una gran experiencia.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniería en Software</h4>
+                        <span class="casa">Universidad de Buenos Aires (UBA)</span>
+                        <span class="fecha">2013 - 2017</span>
+                        <p>A mis 18 años de edad ingrese a la Universidad de Buenos Aires, más bien conocida como la UBA.
+                           La universidad ya era algo con lo que pensaba apenas me recibí del seundario, además de que quería
+                           obtener el titulo de Ingeniero en Software en unas de las universidad más prestigiosas de Buenos Aires.
+                           Fue un reto pero pude cumplirlo.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">IBM</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p>Luego de recibirme pude encontrar un empleo excelente en IBM, un sueño logrado para mí.
+                           El contrato fue de un año pero me sirvió para adquirir experiencia.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ingeniería en Software</h4>
+                        <span class="casa">Mercado Libre</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Luego de irme de IBM pude ver que Mercado Libre necesitaba Ingenieros en Software y justamente
+                           soy una persona con los estudios requeridos. Luego de la entrevista me contrataron para una
+                           de las empresas unicornio más grande de Argentina. Ya con este trabajo pude adquirir mucha
+                           más experiencia de la que poseía.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseño UI/UX</h4>
+                        <span class="casa">Google</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Por último, antes de poder ser una persona dedicada a freelance, Google me contrató
+                           para el diseño UI/UX, algo que yo tenía conocimiento gracias a un curso que había
+                           pagado durante la pandemia. Google no tenía en claro si invertir en tiempo y 
+                           enseñanza iba a ser beneficioso para ellos pero pude demostrarles lo contrario por un año.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="p1.jpg" alt="fotografia">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>Diseño UI</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p2.jpg" alt="fotografia">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Animación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p3.jpg" alt="fotografia">
+                    <div class="overlay">
+                        <h3>Ingeniería</h3>
+                        <p>Software</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p4.jpg" alt="fotografia">
+                    <div class="overlay">
+                        <h3>Diseño para marcas</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p5.jpg" alt="fotografia">
+                    <div class="overlay">
+                        <h3>Desarrollo Front-end</h3>
+                        <p>Páginas Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p6.jpg" alt="fotografia">
+                    <div class="overlay">
+                        <h3>Diseño Creativo infantil</h3>
+                        <p>Modelos funcionales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre" required>
+                    <input type="text" placeholder="Número Telefónico" required>
+                    <input type="text" placeholder="Dirección de Correo" required>
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="ubicacion.png" alt="ubicacion">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-mobile-screen"></i>
+                                Llamanos:  +549119078335
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: JCtechnology@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-sharp fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="Curriculum_Vitae.js"></script>
+</body>
+</html>
